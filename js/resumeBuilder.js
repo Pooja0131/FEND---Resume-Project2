@@ -1,151 +1,147 @@
 //Object Definitions
 var bio = {
-	"name" : "Pooja Mehta",
-	"role" : "Front End Developer",
-	"contacts" : {
-		"mobile" : "0123456789",
-		"email" : "to.poojamehta@gmail.com",
-		"github" : "pooja0131",
-		"twitter" : "@PoojaShukla09",
-		"location" : "Jersey City, NJ"
+	"name": "Pooja Mehta",
+	"role": "Front End Developer",
+	"contacts": {
+		"mobile": "0123456789",
+		"email": "to.poojamehta@gmail.com",
+		"github": "pooja0131",
+		"twitter": "@PoojaShukla09",
+		"location": "Jersey City, NJ"
 	},
-	"welcome_message" : "Welcome to my Resume!",
-	"skills" : ["HTML & CSS", "Javascript", "jQuery", "Python"],
-	"bioPic" : "images/title-img.jpg"
-}
+	"welcome_message": "Welcome to my Resume!",
+	"skills": [],
+	"bioPic": "images/title-img.jpg"
+};
 
 var work = {
-	"jobs":[
-	{
-		"employer" : "C-DAC",
-		"title"  : "Trainee",
+	"jobs":[{
+		"employer": "C-DAC",
+		"title": "Trainee",
 		"location" : "Pune",
-		"dates" : "December 2008 - April 2009",
-		"descriprion" : "Worked on C-DAC Medical Informatics Standards Software Development Kit for DICOM, a toolkit that provides APIs for applications/ medical devices to comply with NEMA DICOM Standard."
+		"dates": "December 2008 - April 2009",
+		"description": "Worked on C-DAC Medical Informatics Standards Software Development Kit for DICOM, a toolkit that provides APIs for applications/ medical devices to comply with NEMA DICOM Standard."
 	},
 	{
-		"employer" : "Aadhya (My Daughter)",
-		"title"  : "Mother",
-		"location" : "Jersey City",
-		"dates" : "2013 - Future",
-		"descriprion" : "Being Mother to Aadhya. It is a lifetime job and also the coolest job ever! "
+		"employer": "Aadhya (My Daughter)",
+		"title": "Mother",
+		"location": "Jersey City",
+		"dates": "2013 - Future",
+		"description": "Being Mother to Aadhya. It is a lifetime job and also the coolest job ever! "
 	}]
-}
+};
 
 var projects = {
-	"projects":[
-	{
-		"title" : "Hello World",
-		"dates" : "May 2015",
-		"description" : "This was my first assignment in the class. Through this assignment I learned how to write a basic HTML and CSS and how to link them. I also learned how to upload a project using github.",
-		"images" : []
+	"projects":[{
+		"title": "Hello World",
+		"dates": "May 2015",
+		"description": "This was my first assignment in the class. Through this assignment I learned how to write a basic HTML and CSS and how to link them. I also learned how to upload a project using github.",
+		"images": []
 	},
 	{
-		"title" : "Line Around Text",
-		"dates" : "May 2015",
-		"description" : "HTML page designed to draw line around text. I wanted to have line around text to make it look better. So I tried and tested it here.",
-		"images" : []
+		"title": "Line Around Text",
+		"dates": "May 2015",
+		"description": "HTML page designed to draw line around text. I wanted to have line around text to make it look better. So I tried and tested it here.",
+		"images": []
 	},
 	{
-		"title" : "Mockup Portfolio",
-		"dates" : "May 2015",
-		"description" : "HTML Portfolio mockup page. Doing this I learned bootstrap framework.",
-		"images" : []
+		"title": "Mockup Portfolio",
+		"dates": "May 2015",
+		"description": "HTML Portfolio mockup page. Doing this I learned bootstrap framework.",
+		"images": []
 	},
 	{
-		"title" : "My Portfolio",
-		"dates" : "May 2015",
-		"description" : "My Portfolio page. this was the first project for completing the Front end Nanodegree. ",
-		"images" : []
+		"title": "My Portfolio",
+		"dates": "May 2015",
+		"description": "My Portfolio page. this was the first project for completing the Front end Nanodegree. ",
+		"images": []
 	}]
-}
+};
 
 var education = {
-	"schools": [
-	{
-		"name" : "GGS Indraprastha University",
-		"location" : "New Delhi",
-		"degree" : "Bachelor of Computer Science(BCA)",
-		"majors" : ["Computer Science"],
-		"minor" : ["Physics"],
-		"dates" : "2003 - 2006",
-		"url" : "http://www.jimsd.org/index.php"
+	"schools": [{
+		"name": "GGS Indraprastha University",
+		"location": "New Delhi",
+		"degree": "Bachelor of Computer Science(BCA)",
+		"majors": ["Computer Science"],
+		"minor": ["Physics"],
+		"dates": "2003 - 2006",
+		"url": "http://www.jimsd.org/index.php"
 	},
 	{
-		"name" : "BVP University",
-		"location" : "Pune",
-		"degree" : "Master of Computer Science(MCA)",
-		"majors" : ["Computer Science"],
-		"minor" : ["English"],
-		"dates" : "2006 - 2009",
-		"url" : "http://imed.bharatividyapeeth.edu/default.aspx"
+		"name": "BVP University",
+		"location": "Pune",
+		"degree": "Master of Computer Science(MCA)",
+		"majors": ["Computer Science"],
+		"minor": ["English"],
+		"dates": "2006 - 2009",
+		"url": "http://imed.bharatividyapeeth.edu/default.aspx"
 	},
 	{
-		"name" : "IIT Kharagpur",
-		"location" : "Kharagpur",
-		"degree" : "Computer Network Management",
-		"majors" : ["Network Management"],
-		"minor" : [],
-		"dates" : "15,June 2007 - 9,July 2007",
-		"url" : "http://www.nettech.in/"
+		"name": "IIT Kharagpur",
+		"location": "Kharagpur",
+		"degree": "Computer Network Management",
+		"majors": ["Network Management"],
+		"minor": [],
+		"dates": "15,June 2007 - 9,July 2007",
+		"url": "http://www.nettech.in/"
 	}],
   
-	"onlineCourses" : [
-	{
-		"title" : "Front End Developer NanoDegree",
-		"school" : "Udacity",
-		"dates" : "May 2015",
-		"url" : "https://www.udacity.com"
+	"onlineCourses" : [{
+		"title": "Front End Developer NanoDegree",
+		"school": "Udacity",
+		"dates": "May 2015",
+		"url": "https://www.udacity.com"
 	},
 	{
-		"title" : "Introduction to HTML & CSS",
-		"school" : "Udacity",
-		"dates" : "May 2015",
-		"url" : "https://www.udacity.com"
+		"title": "Introduction to HTML & CSS",
+		"school": "Udacity",
+		"dates": "May 2015",
+		"url": "https://www.udacity.com"
 	},
 	{
-		"title" : "Responsive Web Design Fundamentals",
-		"school" : "Udacity",
-		"dates" : "May 2015",
-		"url" : "https://www.udacity.com"
+		"title": "Responsive Web Design Fundamentals",
+		"school": "Udacity",
+		"dates": "May 2015",
+		"url": "https://www.udacity.com"
 	},
 	{
-		"title" : "Responsive Images",
-		"school" : "Udacity",
-		"dates" : "May 2015",
-		"url" : "https://www.udacity.com"
+		"title": "Responsive Images",
+		"school": "Udacity",
+		"dates": "May 2015",
+		"url": "https://www.udacity.com"
 	},
 	{
-		"title" : "How to use Git and Github",
-		"school" : "Udacity",
-		"dates" : "May 2015",
-		"url" : "https://www.udacity.com"
+		"title": "How to use Git and Github",
+		"school": "Udacity",
+		"dates": "May 2015",
+		"url": "https://www.udacity.com"
 	},
 	{
-		"title" : "Intro to Computer Science",
-		"school" : "Udacity",
-		"dates" : "May 2015",
-		"url" : "https://www.udacity.com"
+		"title": "Intro to Computer Science",
+		"school": "Udacity",
+		"dates": "May 2015",
+		"url": "https://www.udacity.com"
 	},
 	{
-		"title" : "Programming Foundations with Python",
-		"school" : "Udacity",
-		"dates" : "May 2015",
-		"url" : "https://www.udacity.com"
+		"title": "Programming Foundations with Python",
+		"school": "Udacity",
+		"dates": "May 2015",
+		"url": "https://www.udacity.com"
 	},
 	{
-		"title" : "Javascript Basics",
-		"school" : "Udacity",
-		"dates" : "May 2015",
-		"url" : "https://www.udacity.com"
+		"title": "Javascript Basics",
+		"school": "Udacity",
+		"dates": "May 2015",
+		"url": "https://www.udacity.com"
 	},
 	{
-		"title" : "Intro to jQuery",
-		"school" : "Udacity",
-		"dates" : "May 2015",
-		"url" : "https://www.udacity.com"
+		"title": "Intro to jQuery",
+		"school": "Udacity",
+		"dates": "May 2015",
+		"url": "https://www.udacity.com"
 	}]
-}
+};
 
 
 //Encapsulated functions
@@ -165,13 +161,13 @@ bio.display = function(){
 	$("#topContacts").append(formattedMoblie + formattedEmail + formattedGithub + formattedTwitter + formattedlocation);
 	$("#header").prepend(formattedBioPic);
 		
-    /*$("#header").append(HTMLskillsStart);
+    //$("#header").append(HTMLskillsStart);
 	if(bio.skills.length > 0){
 		for(skill in bio.skills){				
 			var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
 			$("#skills").append(formattedSkill);
 		}
-	}*/
+	}
 };
 
 work.display = function(){
@@ -180,7 +176,7 @@ work.display = function(){
 		var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
 		var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs[job].location);
 		var formattedDates = HTMLworkDates.replace("%data%", work.jobs[job].dates)
-		var formattedWorkDescription = HTMLworkDescription.replace("%data%", work.jobs[job].descriprion);
+		var formattedWorkDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
 		
 		$("#workExperience").append(HTMLworkStart);
 		$(".work-entry:last").append(formattedEmployer);
